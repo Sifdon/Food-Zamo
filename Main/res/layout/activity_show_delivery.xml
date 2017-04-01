@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/activity_list_restr"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:textSize="40dp"
+        android:text="South Express"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/southexpress_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:textSize="40dp"
+        android:text="Punjabi Chilli"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/punjabichilli_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:textSize="40dp"
+        android:text="Moti Mahal"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/motimahal_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:textSize="40dp"
+        android:text="Food Factory"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/foodfactory_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:textSize="40dp"
+        android:text="Food N Dessert"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/fooddessert_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:textSize="40dp"
+        android:text="Cooks FastFood"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/cooksfastfood_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:textSize="40dp"
+        android:text="RoyalView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/royalview_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:textSize="40dp"
+        android:text="Virasat Restaurant"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/virasat_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:textSize="40dp"
+        android:text="Chawla Square"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/chawlasquare_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Chopla Chawla"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/chopalchawla_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:text="Indian Meal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/indianmeal_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Sai Bhoj"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/saibhoj_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Sai Fruit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/saifruit_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Albaek"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/albaek_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="BBQ HUT"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/bbqhut_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Hakeems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/hakeems_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Mejbaan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/mejbaan_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Thadka"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/thadka_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Volga"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/volga_list"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+</ScrollView>

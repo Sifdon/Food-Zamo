@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical" >
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Write a complaint regarding food delivery or food quality issues or any other service related problems."
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textColor="@color/bg_screen2"
+            android:marqueeRepeatLimit ="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scrollHorizontally="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <EditText
+            android:gravity="top|left"
+            android:background="@drawable/linearlayout_border"
+            android:id="@+id/write_complaint"
+            android:hint="Start writing here..."
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+        <TextView
+            android:textSize="15dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_gravity="center"
+            android:background="@drawable/oval_button3"
+            android:id="@+id/submit_complaint"
+            android:text="Submit Complaint"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</ScrollView>

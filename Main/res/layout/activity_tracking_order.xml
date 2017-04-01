@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+  <TextView
+      android:textSize="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+  <TextView
+      android:textStyle="italic"
+      android:text="Please Select a status...."
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+  <TextView
+      android:textSize="20dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+  <TextView
+      android:textStyle="bold"
+      android:id="@+id/confirmed_order"
+      android:textSize="20dp"
+      android:text="Your order is confirmed"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/we_have_started"
+        android:textSize="20dp"
+        android:text="We have started from restuarant"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/ordered_delivered"
+        android:textSize="20dp"
+        android:text="Order Delivered Successfully"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <EditText
+        android:id="@+id/user_id"
+        android:hint="Enter User ID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/send_to_user"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/linearlayout_round_corner"
+        android:text="Send to User"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
