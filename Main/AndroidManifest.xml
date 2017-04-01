@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.user.foodzamo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_pic"
+        android:label="Food Zamo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TermsandConditions.TermsConditions"
+            android:label="About Us"
+            android:parentActivityName=".MainActivity">
+
+            <!-- >This is written for creating back arrow button in toolbar< -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <receiver
+            android:name=".ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Restuarants.RestuarantsList"
+            android:label="Available Restuarants"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" />
+        <activity android:name=".OrderFood.FragmentOne.SelectRestuarant" />
+
+        <!-- >Food Court Menu< -->
+        <activity android:name=".Restuarants.FCItemsListFragment" />
+        <activity
+            android:name=".Restuarants.FCItemList.ChowKiChaat.ChowListItems"
+            android:label="Chow Ki Chaat"
+            android:parentActivityName=".Restuarants.FCSubMenu">
+
+            <!-- >This is written for creating back arrow button in toolbar< -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Restuarants.RestuarantsList" />
+        </activity>
+        <activity
+            android:name=".Restuarants.FCItemList.Tawa.TawaListItems"
+            android:label="Tawaa"
+            android:parentActivityName=".Restuarants.FCSubMenu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Restuarants.RestuarantsList" />
+        </activity>
+        <activity
+            android:name=".Register.Login"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".MyAccount.MyAccount"
+            android:label="My Account"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".MyAccount.MyWallet" />
+        <activity android:name=".Register.UserProfile" />
+        <activity android:name=".OrderFood.RestuarantsMenus.PunjabiChilli" />
+        <activity android:name=".GetCashback.ListRestr" />
+        <activity android:name=".GetCashback.EnterBill" />
+        <activity android:name=".GetCashback.MessageActivity" />
+        <activity android:name=".OrderFood.SelectArea" />
+        <activity android:name=".TermsandConditions.SharedPref" />
+        <activity android:name=".OrderFood.RestuarantsMenus.PunjabiChilliSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.YellowChilliSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.YellowChilli" />
+        <activity
+            android:name=".OrderFood.SaveAddress"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".OrderFood.RestuarantsMenus.CheckOut"
+            android:label="Order Details" />
+        <activity android:name=".OrderFood.RestuarantsMenus.OrderMessage" />
+        <activity
+            android:name=".MyAccount.MyWalletList"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".MyAccount.MyProfile"
+            android:label="User Profile" />
+        <activity android:name=".Restuarants.AboutActivity" />
+        <activity android:name=".OrderFood.RestuarantsMenus.ManSinghSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.ManSingh" />
+        <activity android:name=".Notifications.NotificationsActivity" />
+        <activity
+            android:name=".WriteComplaint.WriteCompl"
+            android:label="Write a Complaint" />
+        <activity android:name=".OrderFood.RestuarantsMenus.FoodCourtSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.FoodCourt" />
+        <activity android:name=".Offers.OffersToday" />
+        <activity android:name=".OrderFood.RestuarantsMenus.VirasatSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Virasat" />
+        <activity android:name=".OrderFood.RestuarantsMenus.SpiceSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Spice" />
+        <activity android:name=".GoogleSignInActivity" />
+        <activity android:name=".GridViews" />
+        <activity android:name=".MyAccount.Coupon" />
+        <activity android:name=".OrderFood.RestuarantsMenus.VolgaSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Volga" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Foodz" />
+        <activity android:name=".OrderFood.RestuarantsMenus.FoodzSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.BambooSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Bamboo" />
+        <activity android:name=".OrderFood.RestuarantsMenus.BhukkadsSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Bhukkads" />
+        <activity android:name=".OrderFood.RestuarantsMenus.ZaykaSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Zayka" />
+        <activity android:name=".OrderFood.RestuarantsMenus.PariSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Pari" />
+        <activity android:name=".OrderFood.RestuarantsMenus.CooksSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Cooks" />
+        <activity android:name=".OrderFood.RestuarantsMenus.SouthSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.South" />
+        <activity android:name=".MerchActivity" />
+        <activity android:name=".MerchantHomeDelivery" />
+        <activity android:name=".CashbackHistory" />
+        <activity android:name=".OrderFood.RestuarantsMenus.NewMazbaanSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.NewMazbaan" />
+        <activity android:name=".OrderFood.RestuarantsMenus.ChawlaSquareSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.ChawlaSquare" />
+        <activity android:name=".OrderFood.RestuarantsMenus.ChopalChawlaSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.ChopalChawla" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Mejbaan" />
+        <activity android:name=".OrderFood.RestuarantsMenus.MejbaanSubMenu" />
+        <activity
+            android:name=".PromoCodes.PromoCodesActivity"
+            android:label="Promo Codes" />
+        <activity android:name=".MyAccount.CardView" />
+        <activity android:name=".JoinUs.JoinNetwork" />
+        <activity android:name=".TrackingOrder" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".FirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".OrderFood.RestuarantsMenus.MotiMahalSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.MotiMahal" />
+        <activity
+            android:name=".MyAccount.FoodZamoPoints"
+            android:label="FoodZamo Points"
+            android:parentActivityName=".MyAccount.CardView">
+
+            <!-- >This is written for creating back arrow button in toolbar< -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MyAccount.CardView" />
+            >
+        </activity>
+        <activity android:name=".VerifyActivity" />
+        <activity android:name=".OrderFood.RestuarantsMenus.BawarchiSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Bawarchi" />
+        <activity android:name=".OrderFood.RestuarantsMenus.FoodDessertSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.FoodDessert" />
+        <activity android:name=".OrderFood.RestuarantsMenus.FoodFactorySubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.FoodFactory" />
+        <activity android:name=".OrderFood.RestuarantsMenus.BbqHut" />
+        <activity android:name=".OrderFood.RestuarantsMenus.BbqHutSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.IndianSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Indian" />
+        <activity android:name=".OrderFood.RestuarantsMenus.RoyalSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Royal" />
+        <activity android:name=".OrderFood.RestuarantsMenus.UzbekSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Uzbek" />
+        <activity android:name=".OrderFood.RestuarantsMenus.AlbaekSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Albaek" />
+        <activity android:name=".HomeDeliveryAvailability" />
+        <activity android:name=".OrderFood.RestuarantsMenus.ThadkaSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Thadka" />
+        <activity android:name=".OrderFood.RestuarantsMenus.HakeemsSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Hakeems" />
+        <activity android:name=".OrderFood.RestuarantsMenus.WildSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Wild" />
+        <activity
+            android:name=".RestuarantsAbout.ListRestuarants"
+            android:label="Restaurants" />
+        <activity android:name=".OrderFood.RestuarantsMenus.MughalSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Mughal" />
+        <activity android:name=".OrderFood.RestuarantsMenus.HeavensSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Heavens" />
+        <activity android:name=".OrderFood.RestuarantsMenus.ShahiSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Shahi" />
+        <activity android:name=".OrderFood.RestuarantsMenus.LuckySubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Lucky" />
+        <activity android:name=".OrderFood.RestuarantsMenus.DemoSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Demo" />
+        <activity
+            android:name=".Offers.DailyOffers"
+            android:label="Offers" />
+        <activity android:name=".OrderFood.RestuarantsMenus.SaiBhoj" />
+        <activity android:name=".OrderFood.RestuarantsMenus.SaiBhojSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.MakkhanSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Makkhan" />
+        <activity android:name=".OrderFood.RestuarantsMenus.SaiFruitSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.SaiFruit" />
+        <activity android:name=".OrderFood.RestuarantsMenus.PavitraSubMenu" />
+        <activity android:name=".OrderFood.RestuarantsMenus.Pavitra" />
+        <activity
+            android:name=".HowToGetCashback"
+            android:label="How to get Casback ?"
+            android:parentActivityName=".Restuarants.RestuarantsList">
+
+            <!-- >This is written for creating back arrow button in toolbar< -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Restuarants.RestuarantsList" />
+        </activity>
+        <activity android:name=".SaiBhojGroup" />
+        <activity android:name=".OrderFood.RestuarantsMenus.ChawlaGKM" />
+        <activity android:name=".OrderFood.RestuarantsMenus.ChawlaGKMSubMenu" />
+        <activity android:name=".UI.UIActivity" />
+        <activity android:name=".BillNumbers" />
+        <activity android:name=".ShowDelivery" />
+        <activity android:name=".ChangeStatus" />
+        <activity android:name=".PhoneNumbersGenerate" />
+        <activity android:name=".ResetNotifications" />
+        <activity
+            android:name=".AboutUs.AboutUs"
+            android:label="About US!"
+            android:parentActivityName=".Restuarants.RestuarantsList">
+
+            <!-- >This is written for creating back arrow button in toolbar< -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Restuarants.RestuarantsList" />
+        </activity>
+        <activity android:name=".Register.OTPActivity"></activity>
+    </application>
+
+</manifest>
