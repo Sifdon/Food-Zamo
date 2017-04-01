@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="Offers" />
+        <item
+
+            android:id="@+id/restuaransts"
+            android:icon="@drawable/restuarants_icon_coloured"
+            android:title="Restuarants" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/order_food_icon_coloured"
+            android:title="Order Food" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/my_account_colour"
+            android:title="My Account" />
+        <item
+            android:id="@+id/promo_codes"
+            android:icon="@drawable/promocodes_icon"
+            android:title="Promo Codes" />
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/notifications_icon_coloured"
+            android:title="Notifications" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Write a Complaint" />
+            <item
+                android:id="@+id/join_with_us"
+                android:icon="@drawable/join_with_us"
+                android:title="Join our Network" />
+            <item
+                android:id="@+id/terms_and_conditions"
+                android:icon="@drawable/south_express_cover"
+                android:title="Help&amp;Support" />
+        </menu>
+    </item>
+
+</menu>

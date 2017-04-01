@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.user.foodzamo.Restuarants.RestuarantsList" >
+    <item android:id="@+id/sort_by_price"
+        android:title="Sort by Price"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/sort_by_name"
+        android:title="Sort by Name"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/None"
+        android:title="Relevance"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+</menu>

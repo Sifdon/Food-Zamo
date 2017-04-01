@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">FoodZamo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+    <string name="title_activity_restuarants_list">RestuarantsList</string>
+    <string name="logo_description">logo_desc</string>
+
+
+    <string name="title_section1">Non-Veg</string>
+    <string name="title_section2">Veg</string>
+    <string name="title_section3">Others</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-->Strings for IntroSlider<-->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">Go HomePage</string>
+    <string name="slide_1_title">Welcome to FoodZamo!</string>
+    <string name="slide_1_desc">Enjoy the delicious food items from your favourite restaurants!</string>
+    <string name="slide_2_title">Home Delivery through APP</string>
+    <string name="slide_2_desc">Favourite food items at your door!. Order now through App.</string>
+    <string name="slide_3_title">Cashbacks on Table Bills</string>
+    <string name="slide_3_desc">Get CASHBACK OF MINIMUM 10% on each of your table bill at every restaurant</string>
+    <string name="slide_5_title">Promo Codes</string>
+    <string name="slide_5_desc">Get promocodes for Free Movie Tickets, Shopping, Hair Saloons, Coffee Shops and Many more!</string>
+    <string name="slide_4_title">Daily Offers</string>
+    <string name="slide_4_desc">Get daily offers from your beloved Restuarants</string>
+    <string name="play_again_desc">To see the welcome slider again</string>
+    <string name="play_again">Play Again</string>
+    <string name="about_us">FoodZamo is a startup founded by a group of students from ABV-IIITM, Gwalior. Our main
+aim is to provide best quality food from your favourite restaurants. By using FoodZamo app you can order
+food, get cashback on table bills, get promocodes for  Movie Tickets,
+Shopping, Hair Saloons, Coffee Shops and on Many others. Get daily updates on Offers and Food Fests. So, Eat More! Earn More!
+                                 </string>
+
+    <string name="name">ListViewBaseAdapter</string>
+    <string name="image">Thumbnail</string>
+    <string name="about_developer">Prakash Reddy</string>
+
+</resources>
