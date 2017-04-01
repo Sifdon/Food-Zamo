@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:textSize="30dp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:paddingLeft="30dp"
+            android:text="User Details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="       "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@drawable/edit_address"
+            android:id="@+id/change_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+        <TextView
+            android:textSize="30dp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/user_details"
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"/>
+    </LinearLayout>

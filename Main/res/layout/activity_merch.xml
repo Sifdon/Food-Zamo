@@ -1,0 +1,105 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+         android:background="@drawable/background2">
+    <TextView
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+        <Button
+            android:id="@+id/main_app_layout"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/rounded_bottom"
+            android:layout_gravity="center_horizontal"
+            android:text="Main App"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+    <TextView
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/home_delivery_orders"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_bottom"
+        android:layout_gravity="center_horizontal"
+        android:text="Home Deliveries"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/credit_cashback_layout"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_bottom"
+        android:layout_gravity="center_horizontal"
+        android:text="Credit Cashback"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/cashback_history"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_bottom"
+        android:layout_gravity="center_horizontal"
+        android:text="Cashback History"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/track_order"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_bottom"
+        android:layout_gravity="center_horizontal"
+        android:text="Track Order"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/delivery_availability"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_bottom"
+        android:layout_gravity="center_horizontal"
+        android:text="Change Availability"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:text="Merchant App"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    </LinearLayout>
+</ScrollView>

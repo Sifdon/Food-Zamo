@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/activity_list_restr"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:textColor="#000000"
+        android:text="SaiBhoj Group"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<TextView
+    android:textSize="20dp"
+    android:text=" "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <Button
+        android:background="@drawable/linearlayout_round_corner"
+        android:text="Sai Bhoj"
+        android:id="@+id/sai_bhoj"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="@drawable/linearlayout_round_corner"
+        android:text="Sai Fruit"
+        android:id="@+id/saifruit_rest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="@drawable/linearlayout_round_corner"
+        android:text="Chawla Chicken"
+        android:id="@+id/chawla_rest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

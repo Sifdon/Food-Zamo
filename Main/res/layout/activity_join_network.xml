@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <EditText
+            android:id="@+id/your_name"
+            android:background="@drawable/linearlayout_border"
+            android:hint="Enter Your Name"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <EditText
+            android:id="@+id/company_name"
+            android:background="@drawable/linearlayout_border"
+            android:hint="Enter Your Company Name"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <EditText
+            android:inputType="number"
+            android:id="@+id/phone_number"
+            android:background="@drawable/linearlayout_border"
+            android:hint="Enter your Phone number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <EditText
+            android:inputType="textEmailAddress"
+            android:gravity="top|left"
+            android:id="@+id/mail_id"
+            android:background="@drawable/linearlayout_border"
+            android:hint="Enter your mail Id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <EditText
+            android:gravity="top|left"
+            android:id="@+id/description_of_your_company"
+            android:background="@drawable/linearlayout_border"
+            android:hint="Description about your company(minimum 100 characters)"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <Button
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/send"
+            android:text="Send"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</ScrollView>

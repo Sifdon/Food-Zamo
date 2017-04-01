@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#E0EEEE"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text=""
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#A0522D"
+        android:text="Available Cash:"
+        android:id="@+id/available_cash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text=""
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/restuarant_name"
+            android:layout_gravity="center"
+            android:text="HELLO"
+            android:textColor="#191970"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/cashback_restuarant"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:paddingBottom="80dip" />
+    <EditText
+        android:textColor="#A52A2A"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:hint="Enter Coupon Amount"
+        android:id="@+id/redeem_cash"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@drawable/linearlayout_round_corner"
+                android:id="@+id/proceed_button"
+                android:layout_width="130dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableTop="@drawable/happy"
+                android:textColor="#000000"
+                android:text="Redeem Cash" />
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+<TextView
+    android:textSize="30dp"
+    android:text=" "
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+        <TextView
+            android:text="Please Enter the below credentials. By clicking on the button you can automatically add cashback to the customer!"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textColor="#FF7F50"
+            android:marqueeRepeatLimit ="marquee_forever"
+            android:focusable="true"
+            android:textStyle="italic"
+            android:focusableInTouchMode="true"
+            android:scrollHorizontally="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edit_text_user_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="60dip"
+            android:layout_marginRight="50dip"
+            android:layout_marginLeft="50dip"
+            android:selectAllOnFocus="true"
+            android:hint="Enter Customer ID"
+            android:maxLength="5"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/edit_text_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="60dip"
+            android:layout_marginRight="50dip"
+            android:layout_marginLeft="50dip"
+            android:selectAllOnFocus="true"
+            android:hint="Enter Bill Amount"
+            android:inputType="number"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/edit_text_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="60dip"
+            android:layout_marginRight="50dip"
+            android:layout_marginLeft="50dip"
+            android:selectAllOnFocus="true"
+            android:hint="Enter Casback Percentage"
+            android:inputType="number"
+            android:textSize="18sp" />
+        <Button
+            android:background="#000000"
+            android:id="@+id/proceed_button"
+            android:layout_width="130dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableTop="@drawable/happy"
+            android:textColor="#FFFFFF"
+            android:text="Proceed!" />
+    </LinearLayout>
+
+
+</ScrollView>

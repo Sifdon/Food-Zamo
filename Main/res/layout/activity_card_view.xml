@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+
+
+    <TextView
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:id="@+id/my_wallet"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/rupee"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <TextView
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="My Wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:id="@+id/my_profile"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/profile_female"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <TextView
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="My Profile"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:id="@+id/coupon_codes"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/coupon_black_white"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <TextView
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Coupon Codes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background3"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Movie Tickets Promocodes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:background="@drawable/linearlayout_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="italic"
+                android:id="@+id/movies_promocodes"
+                android:textSize="18dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+<TextView
+    android:textSize="10dp"
+    android:text=" "
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Shopping PromoCodes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/shopping_promocodes"
+                android:textStyle="italic"
+                android:textSize="18dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="10dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Hair Salons PromoCodes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/hairsaloons_promocodes"
+                android:textStyle="italic"
+                android:textSize="18dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <TextView
+            android:textSize="10dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Coffee Shops Promocodes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/coffee_promocodes"
+                android:textStyle="italic"
+                android:textSize="18dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <TextView
+            android:textSize="10dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Other PromoCodes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/other_promocodes"
+                android:textStyle="italic"
+                android:textSize="18dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</ScrollView>

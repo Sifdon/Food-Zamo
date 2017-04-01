@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:background="#000000"
+    android:padding="10dp" >
+<TextView
+    android:text="Name"
+    android:textColor="#FFFFFF"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:padding="5dip"
+    android:textSize="20dp"
+    android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/name"
+        android:textColor="@color/bg_screen1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:background="@drawable/round_edittext"
+        />
+    <TextView
+        android:textSize="20dp"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Order Delivery Address"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:padding="5dip"
+        android:textSize="20dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:gravity="top|left"
+        android:id="@+id/address"
+        android:textColor="@color/bg_screen1"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:padding="5dip"
+        android:background="@drawable/round_edittext"
+        />
+
+    <TextView
+        android:textSize="20dp"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Phone Number(For Delivery)"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:padding="5dip"
+        android:textSize="20dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:maxLength="10"
+        android:inputType="number"
+        android:id="@+id/phone_number"
+        android:textColor="@color/bg_screen1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:background="@drawable/round_edittext"
+        />
+
+
+    <TextView
+        android:textSize="20dp"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/area"
+        android:text="Area: City Center, Gwalior"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:padding="5dip"
+        android:textSize="20dp"
+        android:layout_height="wrap_content" />
+        />
+    <TextView
+        android:textSize="20dp"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:text="(Services Available Only in Gwalior)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20dp"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/save_address"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/oval_button"
+        android:text="save address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+    </ScrollView>

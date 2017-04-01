@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+<TextView
+    android:textColor="#ffffff"
+    android:layout_marginLeft="60dp"
+    android:textSize="20dp"
+    android:fontFamily="sans-serif-condensed"
+    android:text="Offers of the Day"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/daily_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ The ManSingh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/mansingh_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ FoodCourt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/foodcourt_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ SouthExpress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/southexpress_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ Moti Mahal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/motmahal_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ Punjabi Chilli"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/punjabichilli_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ The Yellow Chilli"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/yellowchilli_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ Cooks FastFood"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/cooks_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+<TextView
+    android:textSize="20dp"
+    android:text=" "
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ Volga Restuarant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/volgo_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ Bamboo Restuarants"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/bamboo_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ Bawarchi Xpress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/bawarchi_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ Virasat, The Heritage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/virasat_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ 7 Spice Restuarant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/spice_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ Sri Bhukkads"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/bhukkads_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ Pari FoodZone "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/parifood_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ Foodz Inn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/foodzinn_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ Zayka Restuarant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/zayka_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ Mejbaan Restuarant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/mejbaan_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ Chawla Square"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/chawla_square_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ New Mazbaan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/new_mazbaan_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginLeft="60dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Offers @ Chopal Chawla"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_round_corner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/chopal_chawla_offers"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Loading..."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</ScrollView>

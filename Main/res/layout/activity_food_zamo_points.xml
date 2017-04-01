@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/zamo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/points"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:text="Hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20dp"
+        android:text="  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/redeem_points"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/linearlayout_round_corner"
+        android:text="Redeem Points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20dp"
+        android:text="  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Minimum redeem points should be 1000. Redeem points and get free movie tickets/discounts on shopping/food coupons and many more."
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textColor="@color/bg_screen2"
+        android:marqueeRepeatLimit ="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scrollHorizontally="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

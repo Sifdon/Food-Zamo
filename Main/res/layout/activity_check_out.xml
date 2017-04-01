@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="100dp">
+        <TextView
+            android:textStyle="bold"
+            android:text="Item Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/item_name"
+                android:textStyle="bold"
+                android:text="Item Name\nhello\nabcdefghij"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp">
+        <TextView
+            android:text="Qunatity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/text_quantity"
+                android:text="Qunatity\n1\n0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/text_price"
+                android:text="Price\n100\n200"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:id="@+id/delivery_charges"
+        android:text="Delivery Charges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="    ___________________________________________________"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<TextView
+    android:textSize="10dp"
+    android:text=""
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+<TextView
+    android:id="@+id/total_amount"
+    android:text="Total"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="30dp"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:text="Delivery Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@drawable/edit_address"
+        android:id="@+id/change_address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+    <TextView
+        android:textSize="30dp"
+        android:text=" "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+       android:id="@+id/delivery_address"
+        android:text="hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/place_order"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/oval_button"
+        android:text="Place Order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:id="@+id/webView"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+</LinearLayout>
+
+
+    </ScrollView>

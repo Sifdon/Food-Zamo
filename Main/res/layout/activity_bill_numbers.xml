@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/activity_list_restr"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Button
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/button_check"
+        android:layout_gravity="center"
+        android:text="Check It"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Button
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/button_home_deliveries"
+        android:layout_gravity="center"
+        android:text="Home Deliveries"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Button
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/button_home_deliveries_availability"
+        android:layout_gravity="center"
+        android:text="Home Deliveries Availability"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <Button
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/button_generate_phone_number"
+        android:layout_gravity="center"
+        android:text="Phone Numbers"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/display_bill_count"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Display"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+</LinearLayout>
+</ScrollView>

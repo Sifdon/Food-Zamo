@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background3"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:text="My Notifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+<LinearLayout
+    android:background="@drawable/linearlayout_border"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/my_notifications"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:text="Loading..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:text=" "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:text="Announcements!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:background="@drawable/linearlayout_border"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="italic"
+                android:textSize="18dp"
+                android:id="@+id/announcements"
+                android:text="Loading..."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

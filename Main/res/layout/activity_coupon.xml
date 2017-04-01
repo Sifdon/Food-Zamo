@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#E0EEEE"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:textSize="30dp"
+        android:text=" "
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+   <TextView
+       android:textStyle="italic"
+       android:textSize="20dp"
+       android:id="@+id/status"
+       android:text=" hello"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20dp"
+        android:text=" "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="#000000"
+        android:id="@+id/use_now"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_bottom"
+        android:text="Use Now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
